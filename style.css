@@ -48,20 +48,19 @@ body {
 
 p.title {
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 p.subtitle {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: rgba(32, 32, 32, 50%);
-    font-family: 'Open Sans';
     font-weight: 'Regular';
     text-transform: capitalize;
 }
 
 h4.title {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 35px;
     font-weight: 'SemiBold';
     color: #333333;
@@ -79,8 +78,7 @@ button {
     margin-left: -5px;
     background-color: #754EF9;
     color: white;
-    font-family: 'Roboto';
-    font-weight: 'Condesend';
+    font-family: 'Roboto Condensed', sans-serif;
     border: none;
     white-space: nowrap;
     text-decoration: none;
@@ -133,7 +131,7 @@ button:hover {
     display: inline;
     margin: 0 10px;
     text-transform: uppercase;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -152,7 +150,7 @@ nav {
 
 nav>ul>li {
     display: inline-flex;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     margin: 0 10px;
     padding: 20px 0;
     flex: 1;
@@ -258,7 +256,7 @@ article.portofolio {
 }
 
 .portofolio-header p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 'Regular';
 }
