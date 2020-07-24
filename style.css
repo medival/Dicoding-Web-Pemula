@@ -103,13 +103,24 @@ button:hover {
 
 .left-side>p {
     text-align: center;
+    line-height: 1.5em;
 }
 
 .profile-picture {
     width: 200px;
     height: auto;
-    margin: 100px 25%;
+    margin: 100px 10vw 25px 10vw;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 99em;
 }
+
+.dicoding {
+    color: #2D3E50;
+}
+
 
 .right-side {
     background-color: #fff;
@@ -235,7 +246,7 @@ nav>ul>li:first-child {
     margin: 75px 0 50px 0;
 }
 
-section.portofolio {
+article.portofolio {
     display: grid;
     place-items: center;
     padding-top: 85px;
@@ -266,7 +277,7 @@ section.portofolio {
 }
 
 /* Contact */
-section.contact {
+article.contact {
     margin-top: 40px;
     display: grid;
     place-items: center;
