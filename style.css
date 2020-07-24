@@ -171,6 +171,8 @@ nav>ul>li:first-child {
 .menu-header>.left-side,
 .menu-header>.right-side {
     flex: 1;
+    display: grid;
+    place-items: center;
 }
 
 .menu-header>.right-side {
@@ -184,8 +186,11 @@ nav>ul>li:first-child {
 }
 
 .hero img {
-    width: 450px;
+    max-width: 70%;
+    min-width: 40%;
     height: auto;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 
