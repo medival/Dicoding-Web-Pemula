@@ -96,7 +96,7 @@ button:hover {
 }
 
 .left-side {
-    width: 450px;
+    /* min-width: 450px; */
 }
 
 .left-side>p {
@@ -122,7 +122,6 @@ button:hover {
 
 .right-side {
     background-color: #fff;
-    width: 90%;
     padding-top: 20px;
 }
 
@@ -148,7 +147,7 @@ nav {
     z-index: 1;
 }
 
-nav>ul>li {
+nav>.navbar-desktop>ul>li {
     display: inline-flex;
     font-family: 'Open Sans', sans-serif;
     margin: 0 10px;
@@ -157,9 +156,12 @@ nav>ul>li {
     text-transform: uppercase;
 }
 
-nav>ul>li:first-child {
-    padding-left: 13vw;
-    padding-right: 10vw;
+nav>.navbar-desktop>ul>li:first-child {
+    margin-left: 5vw;
+    margin-right: auto;
+    /* padding-left: 13vw; */
+    /* padding-right: 10vw; */
+    /* margin-right: auto; */
 }
 
 .menu-header {
@@ -176,7 +178,8 @@ nav>ul>li:first-child {
 }
 
 .menu-header>.right-side {
-    flex-grow: 2;
+    /* flex-grow: 2; */
+    min-width: 430px;
 }
 
 .hero {
